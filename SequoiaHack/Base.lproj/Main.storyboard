@@ -28,7 +28,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4258" y="59"/>
+            <point key="canvasLocation" x="5070" y="59"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="uM7-gB-SHX">
@@ -43,6 +43,7 @@
                     <connections>
                         <segue destination="79L-ox-WTp" kind="relationship" relationship="viewControllers" id="Cda-Tv-7Aq"/>
                         <segue destination="GKj-uS-5ug" kind="relationship" relationship="viewControllers" id="Wl6-x4-Gbb"/>
+                        <segue destination="8dQ-AV-hVT" kind="relationship" relationship="viewControllers" id="y4p-QU-PfX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ZC-wl-1AL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -68,6 +69,25 @@
             </objects>
             <point key="canvasLocation" x="2756" y="817"/>
         </scene>
+        <!--Farm Map-->
+        <scene sceneID="edM-4i-1qh">
+            <objects>
+                <viewController id="SCL-V7-hkO" customClass="MapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gcy-Kg-pte"/>
+                        <viewControllerLayoutGuide type="bottom" id="pZv-bR-N4P"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lqj-NF-oJT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Farm Map" id="cUa-fd-PFJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QD2-pJ-ysF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4000" y="-431"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Gar-HA-6xd">
             <objects>
@@ -85,7 +105,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1O0-lA-YuV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3446" y="59"/>
+            <point key="canvasLocation" x="4258" y="59"/>
         </scene>
         <!--Technology Services-->
         <scene sceneID="KoN-Li-ui4">
@@ -420,6 +440,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lpQ-Ey-Ib0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1131" y="908"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lHE-Vg-cXV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8dQ-AV-hVT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="more" id="FAy-rD-W73"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Vg-US-0lU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="SCL-V7-hkO" kind="relationship" relationship="rootViewController" id="wk6-5Y-rmI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ofm-a5-4Mu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3188" y="-431"/>
         </scene>
     </scenes>
     <resources>

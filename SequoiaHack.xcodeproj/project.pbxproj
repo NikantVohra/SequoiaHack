@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0503C23D1B9208BD00B297FA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0503C23C1B9208BD00B297FA /* MapViewController.m */; };
 		056DA5DF1B91C83E005B112C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 056DA5DE1B91C83E005B112C /* main.m */; };
 		056DA5E21B91C83E005B112C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 056DA5E11B91C83E005B112C /* AppDelegate.m */; };
 		056DA5E51B91C83E005B112C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 056DA5E41B91C83E005B112C /* ViewController.m */; };
@@ -35,6 +36,7 @@
 		056DA6441B91EB8C005B112C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA6421B91EB8C005B112C /* Bolts.framework */; };
 		056DA6451B91EB8D005B112C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA6431B91EB8C005B112C /* Parse.framework */; };
 		056DA6481B91F579005B112C /* farmer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 056DA6471B91F579005B112C /* farmer.jpg */; };
+		8DDD80C81014CBF0D3C8185A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70841AB5CA95827EB7C526D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0503C23B1B9208BD00B297FA /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		0503C23C1B9208BD00B297FA /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		056DA5DA1B91C83E005B112C /* SequoiaHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SequoiaHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		056DA5DE1B91C83E005B112C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		056DA5E01B91C83E005B112C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +102,9 @@
 		056DA6431B91EB8C005B112C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		056DA6471B91F579005B112C /* farmer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = farmer.jpg; sourceTree = "<group>"; };
 		056DA64A1B91F84E005B112C /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		19B3FFD12D4545F43115F6F4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A70841AB5CA95827EB7C526D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B9D09DA997F3A32F559494 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +126,7 @@
 				056DA62F1B91EAA3005B112C /* CFNetwork.framework in Frameworks */,
 				056DA62D1B91EA99005B112C /* AudioToolbox.framework in Frameworks */,
 				056DA61F1B91D58A005B112C /* CoreLocation.framework in Frameworks */,
+				8DDD80C81014CBF0D3C8185A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +155,7 @@
 				056DA5F61B91C83E005B112C /* SequoiaHackTests */,
 				056DA6011B91C83E005B112C /* SequoiaHackUITests */,
 				056DA5DB1B91C83E005B112C /* Products */,
+				478FEBB520040EE2C99D409B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +175,8 @@
 				056DA6201B91D96D005B112C /* images */,
 				056DA5E01B91C83E005B112C /* AppDelegate.h */,
 				056DA5E11B91C83E005B112C /* AppDelegate.m */,
+				0503C23B1B9208BD00B297FA /* MapViewController.h */,
+				0503C23C1B9208BD00B297FA /* MapViewController.m */,
 				056DA5E31B91C83E005B112C /* ViewController.h */,
 				056DA5E41B91C83E005B112C /* ViewController.m */,
 				056DA61B1B91D481005B112C /* Utils.h */,
@@ -234,8 +245,18 @@
 				056DA62E1B91EAA3005B112C /* CFNetwork.framework */,
 				056DA62C1B91EA99005B112C /* AudioToolbox.framework */,
 				056DA61E1B91D58A005B112C /* CoreLocation.framework */,
+				A70841AB5CA95827EB7C526D /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		478FEBB520040EE2C99D409B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19B3FFD12D4545F43115F6F4 /* Pods.debug.xcconfig */,
+				D9B9D09DA997F3A32F559494 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 056DA6071B91C83E005B112C /* Build configuration list for PBXNativeTarget "SequoiaHack" */;
 			buildPhases = (
+				ED734CC01FDAFCF08BC63B85 /* Check Pods Manifest.lock */,
 				056DA5D61B91C83E005B112C /* Sources */,
 				056DA5D71B91C83E005B112C /* Frameworks */,
 				056DA5D81B91C83E005B112C /* Resources */,
+				1BF206B388E6332DC74567E9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -370,6 +393,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BF206B388E6332DC74567E9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED734CC01FDAFCF08BC63B85 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		056DA5D61B91C83E005B112C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -377,6 +433,7 @@
 			files = (
 				056DA5E51B91C83E005B112C /* ViewController.m in Sources */,
 				056DA5E21B91C83E005B112C /* AppDelegate.m in Sources */,
+				0503C23D1B9208BD00B297FA /* MapViewController.m in Sources */,
 				056DA5DF1B91C83E005B112C /* main.m in Sources */,
 				056DA61D1B91D481005B112C /* Utils.m in Sources */,
 			);
@@ -533,6 +590,7 @@
 		};
 		056DA6081B91C83E005B112C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B3FFD12D4545F43115F6F4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Akshay Krishnaiah (QQ5986P5U2)";
@@ -552,6 +610,7 @@
 		};
 		056DA6091B91C83E005B112C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B9D09DA997F3A32F559494 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Akshay Krishnaiah (QQ5986P5U2)";
@@ -636,6 +695,7 @@
 				056DA6091B91C83E005B112C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		056DA60A1B91C83E005B112C /* Build configuration list for PBXNativeTarget "SequoiaHackTests" */ = {
 			isa = XCConfigurationList;
@@ -644,6 +704,7 @@
 				056DA60C1B91C83E005B112C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		056DA60D1B91C83E005B112C /* Build configuration list for PBXNativeTarget "SequoiaHackUITests" */ = {
 			isa = XCConfigurationList;
@@ -652,6 +713,7 @@
 				056DA60F1B91C83E005B112C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

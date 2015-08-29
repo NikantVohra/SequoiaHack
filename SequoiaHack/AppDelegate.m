@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
+@import GoogleMaps;
+
 
 @interface AppDelegate ()
 
@@ -27,6 +29,7 @@
                                                                              categories:nil];
     [application registerUserNotificationSettings:settings];
     [application registerForRemoteNotifications];
+    [GMSServices provideAPIKey:@"AIzaSyCFzV5a58_nuo38dgM06kMaCQ1DZ_N8s1g"];
     return YES;
 }
 
