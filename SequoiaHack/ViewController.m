@@ -24,13 +24,12 @@ CLLocationManager *locationManager;
      locationManager = [[CLLocationManager alloc] init];
     [self getCurrentLocation];
     self.tabBarController.navigationItem.title = NSLocalizedString(@"Home", nil);
-    
 }
 
 
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-   
+   self.tabBarController.navigationItem.title = NSLocalizedString(@"Home", nil);
 
     
 }

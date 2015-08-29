@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tTm-L1-TQF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ouO-Hy-59G">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
@@ -88,11 +88,11 @@
             </objects>
             <point key="canvasLocation" x="4000" y="-431"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Home-->
         <scene sceneID="Gar-HA-6xd">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="79L-ox-WTp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="SLO-MF-XZ5"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="user_L" selectedImage="user_F" id="SLO-MF-XZ5"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1Cy-QM-fsB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -105,7 +105,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1O0-lA-YuV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4258" y="59"/>
+            <point key="canvasLocation" x="4285" y="246"/>
         </scene>
         <!--Technology Services-->
         <scene sceneID="KoN-Li-ui4">
@@ -357,11 +357,11 @@
             </objects>
             <point key="canvasLocation" x="912" y="51"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Policies-->
         <scene sceneID="btW-b0-TfX">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GKj-uS-5ug" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="0MZ-4T-U9n"/>
+                    <tabBarItem key="tabBarItem" title="Policies" image="bookmarks_L" selectedImage="bookmarks_F" id="0MZ-4T-U9n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tbB-s2-xFl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -441,11 +441,11 @@
             </objects>
             <point key="canvasLocation" x="1131" y="908"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Map-->
         <scene sceneID="lHE-Vg-cXV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8dQ-AV-hVT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="more" id="FAy-rD-W73"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="global_L" selectedImage="global_F" id="FAy-rD-W73"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Vg-US-0lU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -462,9 +462,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bookmarks_F" width="30" height="28"/>
+        <image name="bookmarks_L" width="30" height="30"/>
+        <image name="global_F" width="30" height="30"/>
+        <image name="global_L" width="30" height="30"/>
         <image name="house21.png" width="128" height="128"/>
         <image name="info28.png" width="128" height="128"/>
         <image name="network3.png" width="128" height="128"/>
+        <image name="user_F" width="30" height="30"/>
+        <image name="user_L" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Iwk-ws-pnw"/>
