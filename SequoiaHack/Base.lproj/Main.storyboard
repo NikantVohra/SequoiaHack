@@ -50,10 +50,10 @@
             </objects>
             <point key="canvasLocation" x="2409" y="29"/>
         </scene>
-        <!--Policies-->
+        <!--Resources-->
         <scene sceneID="eZ2-9n-5hr">
             <objects>
-                <viewController id="FZk-ca-Jdy" sceneMemberID="viewController">
+                <viewController id="FZk-ca-Jdy" customClass="ResourcesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3gu-7B-qj4"/>
                         <viewControllerLayoutGuide type="bottom" id="mBK-YI-nsX"/>
@@ -61,13 +61,60 @@
                     <view key="view" contentMode="scaleToFill" id="AZm-vj-hqL">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Hw5-H7-mfC">
+                                <rect key="frame" x="0.0" y="-24" width="600" height="624"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="FZk-ca-Jdy" id="gIF-kO-dix"/>
+                                    <outlet property="delegate" destination="FZk-ca-Jdy" id="8mW-1B-r7V"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hw5-H7-mfC" firstAttribute="leading" secondItem="AZm-vj-hqL" secondAttribute="leading" id="idi-dc-8ew"/>
+                            <constraint firstAttribute="trailing" secondItem="Hw5-H7-mfC" secondAttribute="trailing" id="tBE-Nv-nYY"/>
+                            <constraint firstItem="Hw5-H7-mfC" firstAttribute="top" secondItem="3gu-7B-qj4" secondAttribute="bottom" constant="-88" id="vLD-5e-kFn"/>
+                            <constraint firstAttribute="bottom" secondItem="Hw5-H7-mfC" secondAttribute="bottom" id="xjo-W1-VkX"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Policies" id="sZJ-LI-Tee"/>
+                    <navigationItem key="navigationItem" title="Resources" id="sZJ-LI-Tee"/>
+                    <connections>
+                        <segue destination="whn-Xf-WR5" kind="show" identifier="irrigationSegue" id="47T-AR-VOC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QWf-Kc-rZD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2756" y="817"/>
+        </scene>
+        <!--Irrigation Table View Controller-->
+        <scene sceneID="BZq-75-PYx">
+            <objects>
+                <tableViewController id="whn-Xf-WR5" customClass="IrrigationTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="MOm-bA-dZ3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="aeK-Wb-mE6">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aeK-Wb-mE6" id="I9o-Io-IMr">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="whn-Xf-WR5" id="AmI-lq-RYP"/>
+                            <outlet property="delegate" destination="whn-Xf-WR5" id="TT7-db-Ocd"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Od-36-DqA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3404" y="811"/>
         </scene>
         <!--Farm Map-->
         <scene sceneID="edM-4i-1qh">
@@ -357,11 +404,11 @@
             </objects>
             <point key="canvasLocation" x="912" y="51"/>
         </scene>
-        <!--Policies-->
+        <!--Resources-->
         <scene sceneID="btW-b0-TfX">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GKj-uS-5ug" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Policies" image="bookmarks_L" selectedImage="bookmarks_F" id="0MZ-4T-U9n"/>
+                    <tabBarItem key="tabBarItem" title="Resources" image="bookmarks_L" selectedImage="bookmarks_F" id="0MZ-4T-U9n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tbB-s2-xFl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

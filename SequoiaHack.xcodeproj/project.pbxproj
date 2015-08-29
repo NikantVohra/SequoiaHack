@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0503C23D1B9208BD00B297FA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0503C23C1B9208BD00B297FA /* MapViewController.m */; };
+		0503C24D1B92265300B297FA /* ResourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0503C24C1B92265300B297FA /* ResourcesViewController.m */; };
+		0503C2531B922B7800B297FA /* IrrigationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0503C2521B922B7800B297FA /* IrrigationTableViewController.m */; };
+		0503C2551B922F3700B297FA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0503C2541B922F3700B297FA /* MediaPlayer.framework */; };
 		056DA5DF1B91C83E005B112C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 056DA5DE1B91C83E005B112C /* main.m */; };
 		056DA5E21B91C83E005B112C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 056DA5E11B91C83E005B112C /* AppDelegate.m */; };
 		056DA5E51B91C83E005B112C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 056DA5E41B91C83E005B112C /* ViewController.m */; };
@@ -59,6 +62,11 @@
 /* Begin PBXFileReference section */
 		0503C23B1B9208BD00B297FA /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		0503C23C1B9208BD00B297FA /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		0503C24B1B92265300B297FA /* ResourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesViewController.h; sourceTree = "<group>"; };
+		0503C24C1B92265300B297FA /* ResourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourcesViewController.m; sourceTree = "<group>"; };
+		0503C2511B922B7800B297FA /* IrrigationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrrigationTableViewController.h; sourceTree = "<group>"; };
+		0503C2521B922B7800B297FA /* IrrigationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrrigationTableViewController.m; sourceTree = "<group>"; };
+		0503C2541B922F3700B297FA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		056DA5DA1B91C83E005B112C /* SequoiaHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SequoiaHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		056DA5DE1B91C83E005B112C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		056DA5E01B91C83E005B112C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0503C2551B922F3700B297FA /* MediaPlayer.framework in Frameworks */,
 				056DA6411B91EB5A005B112C /* QuartzCore.framework in Frameworks */,
 				056DA63F1B91EB06005B112C /* Social.framework in Frameworks */,
 				056DA63D1B91EAFF005B112C /* Accounts.framework in Frameworks */,
@@ -175,12 +184,16 @@
 				056DA6201B91D96D005B112C /* images */,
 				056DA5E01B91C83E005B112C /* AppDelegate.h */,
 				056DA5E11B91C83E005B112C /* AppDelegate.m */,
+				0503C24B1B92265300B297FA /* ResourcesViewController.h */,
+				0503C24C1B92265300B297FA /* ResourcesViewController.m */,
 				0503C23B1B9208BD00B297FA /* MapViewController.h */,
 				0503C23C1B9208BD00B297FA /* MapViewController.m */,
 				056DA5E31B91C83E005B112C /* ViewController.h */,
 				056DA5E41B91C83E005B112C /* ViewController.m */,
 				056DA61B1B91D481005B112C /* Utils.h */,
 				056DA61C1B91D481005B112C /* Utils.m */,
+				0503C2511B922B7800B297FA /* IrrigationTableViewController.h */,
+				0503C2521B922B7800B297FA /* IrrigationTableViewController.m */,
 				056DA5E61B91C83E005B112C /* Main.storyboard */,
 				056DA6161B91CE46005B112C /* Localizable.strings */,
 				056DA5E91B91C83E005B112C /* Assets.xcassets */,
@@ -231,6 +244,7 @@
 		056DA6461B91F29D005B112C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0503C2541B922F3700B297FA /* MediaPlayer.framework */,
 				056DA6421B91EB8C005B112C /* Bolts.framework */,
 				056DA6431B91EB8C005B112C /* Parse.framework */,
 				056DA6401B91EB5A005B112C /* QuartzCore.framework */,
@@ -431,9 +445,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0503C24D1B92265300B297FA /* ResourcesViewController.m in Sources */,
 				056DA5E51B91C83E005B112C /* ViewController.m in Sources */,
 				056DA5E21B91C83E005B112C /* AppDelegate.m in Sources */,
 				0503C23D1B9208BD00B297FA /* MapViewController.m in Sources */,
+				0503C2531B922B7800B297FA /* IrrigationTableViewController.m in Sources */,
 				056DA5DF1B91C83E005B112C /* main.m in Sources */,
 				056DA61D1B91D481005B112C /* Utils.m in Sources */,
 			);
