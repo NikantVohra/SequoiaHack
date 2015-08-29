@@ -41,11 +41,11 @@
             </objects>
             <point key="canvasLocation" x="1010" y="59"/>
         </scene>
-        <!--Home-->
+        <!--Navigation Controller-->
         <scene sceneID="Gar-HA-6xd">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="79L-ox-WTp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="SLO-MF-XZ5"/>
+                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="SLO-MF-XZ5"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1Cy-QM-fsB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
