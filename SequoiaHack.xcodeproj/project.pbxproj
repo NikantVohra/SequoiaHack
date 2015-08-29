@@ -21,6 +21,19 @@
 		056DA6221B91D97E005B112C /* info28.png in Resources */ = {isa = PBXBuildFile; fileRef = 056DA6211B91D97E005B112C /* info28.png */; };
 		056DA6241B91DACA005B112C /* network3.png in Resources */ = {isa = PBXBuildFile; fileRef = 056DA6231B91DACA005B112C /* network3.png */; };
 		056DA6261B91DBCB005B112C /* house21.png in Resources */ = {isa = PBXBuildFile; fileRef = 056DA6251B91DBCB005B112C /* house21.png */; };
+		056DA62D1B91EA99005B112C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA62C1B91EA99005B112C /* AudioToolbox.framework */; };
+		056DA62F1B91EAA3005B112C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA62E1B91EAA3005B112C /* CFNetwork.framework */; };
+		056DA6311B91EAAD005B112C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA6301B91EAAD005B112C /* CoreGraphics.framework */; };
+		056DA6331B91EAB6005B112C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA6321B91EAB6005B112C /* Security.framework */; };
+		056DA6351B91EABF005B112C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA6341B91EABF005B112C /* StoreKit.framework */; };
+		056DA6371B91EAC9005B112C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA6361B91EAC9005B112C /* SystemConfiguration.framework */; };
+		056DA6391B91EAE8005B112C /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA6381B91EAE8005B112C /* libz.1.1.3.tbd */; };
+		056DA63B1B91EAF2005B112C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA63A1B91EAF2005B112C /* libsqlite3.0.tbd */; };
+		056DA63D1B91EAFF005B112C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA63C1B91EAFF005B112C /* Accounts.framework */; };
+		056DA63F1B91EB06005B112C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA63E1B91EB06005B112C /* Social.framework */; };
+		056DA6411B91EB5A005B112C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA6401B91EB5A005B112C /* QuartzCore.framework */; };
+		056DA6441B91EB8C005B112C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA6421B91EB8C005B112C /* Bolts.framework */; };
+		056DA6451B91EB8D005B112C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA6431B91EB8C005B112C /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +83,19 @@
 		056DA6251B91DBCB005B112C /* house21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house21.png; sourceTree = "<group>"; };
 		056DA6281B91DC48005B112C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		056DA62B1B91DCDB005B112C /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		056DA62C1B91EA99005B112C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		056DA62E1B91EAA3005B112C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		056DA6301B91EAAD005B112C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		056DA6321B91EAB6005B112C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		056DA6341B91EABF005B112C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		056DA6361B91EAC9005B112C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		056DA6381B91EAE8005B112C /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		056DA63A1B91EAF2005B112C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		056DA63C1B91EAFF005B112C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		056DA63E1B91EB06005B112C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		056DA6401B91EB5A005B112C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		056DA6421B91EB8C005B112C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		056DA6431B91EB8C005B112C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +103,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056DA6411B91EB5A005B112C /* QuartzCore.framework in Frameworks */,
+				056DA63F1B91EB06005B112C /* Social.framework in Frameworks */,
+				056DA63D1B91EAFF005B112C /* Accounts.framework in Frameworks */,
+				056DA63B1B91EAF2005B112C /* libsqlite3.0.tbd in Frameworks */,
+				056DA6391B91EAE8005B112C /* libz.1.1.3.tbd in Frameworks */,
+				056DA6371B91EAC9005B112C /* SystemConfiguration.framework in Frameworks */,
+				056DA6351B91EABF005B112C /* StoreKit.framework in Frameworks */,
+				056DA6441B91EB8C005B112C /* Bolts.framework in Frameworks */,
+				056DA6331B91EAB6005B112C /* Security.framework in Frameworks */,
+				056DA6311B91EAAD005B112C /* CoreGraphics.framework in Frameworks */,
+				056DA6451B91EB8D005B112C /* Parse.framework in Frameworks */,
+				056DA62F1B91EAA3005B112C /* CFNetwork.framework in Frameworks */,
+				056DA62D1B91EA99005B112C /* AudioToolbox.framework in Frameworks */,
 				056DA61F1B91D58A005B112C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +140,19 @@
 		056DA5D11B91C83E005B112C = {
 			isa = PBXGroup;
 			children = (
+				056DA6421B91EB8C005B112C /* Bolts.framework */,
+				056DA6431B91EB8C005B112C /* Parse.framework */,
+				056DA6401B91EB5A005B112C /* QuartzCore.framework */,
+				056DA63E1B91EB06005B112C /* Social.framework */,
+				056DA63C1B91EAFF005B112C /* Accounts.framework */,
+				056DA63A1B91EAF2005B112C /* libsqlite3.0.tbd */,
+				056DA6381B91EAE8005B112C /* libz.1.1.3.tbd */,
+				056DA6361B91EAC9005B112C /* SystemConfiguration.framework */,
+				056DA6341B91EABF005B112C /* StoreKit.framework */,
+				056DA6321B91EAB6005B112C /* Security.framework */,
+				056DA6301B91EAAD005B112C /* CoreGraphics.framework */,
+				056DA62E1B91EAA3005B112C /* CFNetwork.framework */,
+				056DA62C1B91EA99005B112C /* AudioToolbox.framework */,
 				056DA61E1B91D58A005B112C /* CoreLocation.framework */,
 				056DA5DC1B91C83E005B112C /* SequoiaHack */,
 				056DA5F61B91C83E005B112C /* SequoiaHackTests */,
@@ -242,6 +294,7 @@
 				TargetAttributes = {
 					056DA5D91B91C83E005B112C = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = E5HMDQRS6Z;
 					};
 					056DA5F21B91C83E005B112C = {
 						CreatedOnToolsVersion = 7.0;
@@ -399,7 +452,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akshay Krishnaiah (QQ5986P5U2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Akshay Krishnaiah (QQ5986P5U2)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -421,6 +475,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "866808b9-1a1f-4850-ac40-ab52b01153e8";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -442,7 +497,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akshay Krishnaiah (QQ5986P5U2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Akshay Krishnaiah (QQ5986P5U2)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -457,6 +513,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "866808b9-1a1f-4850-ac40-ab52b01153e8";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -466,10 +523,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akshay Krishnaiah (QQ5986P5U2)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SequoiaHack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.velle.SequoiaHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "866808b9-1a1f-4850-ac40-ab52b01153e8";
 			};
 			name = Debug;
 		};
@@ -477,10 +542,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akshay Krishnaiah (QQ5986P5U2)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SequoiaHack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.velle.SequoiaHack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "866808b9-1a1f-4850-ac40-ab52b01153e8";
 			};
 			name = Release;
 		};
