@@ -110,19 +110,19 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqO-df-9uz">
                                 <rect key="frame" x="278" y="199" width="45.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MarketPlace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Wi-z6-Jph">
                                 <rect key="frame" x="249" y="350" width="102.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Infrastructure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csP-wJ-hPk">
                                 <rect key="frame" x="239" y="510" width="121.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EmV-9V-zee">
@@ -170,9 +170,9 @@
                             <mask key="constraints">
                                 <exclude reference="Dag-al-0je"/>
                                 <exclude reference="ojH-7b-y80"/>
+                                <exclude reference="9il-E7-Zp8"/>
                                 <exclude reference="Cwd-wN-4yk"/>
                                 <exclude reference="pqk-6O-4dt"/>
-                                <exclude reference="9il-E7-Zp8"/>
                                 <exclude reference="DJ4-Rk-nGy"/>
                             </mask>
                         </variation>
@@ -272,7 +272,7 @@
             </objects>
             <point key="canvasLocation" x="-341" y="908"/>
         </scene>
-        <!--View Controller-->
+        <!--Mera Kisan-->
         <scene sceneID="5Ip-RW-cAD">
             <objects>
                 <viewController id="aMO-Rg-dIn" sceneMemberID="viewController">
@@ -284,10 +284,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h0O-HE-GQG">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h0O-HE-GQG">
                                 <rect key="frame" x="18" y="285" width="564" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Mobile Number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p6H-AK-n5f">
                                 <rect key="frame" x="183" y="171" width="235" height="30"/>
@@ -306,10 +306,18 @@
                             <constraint firstItem="h0O-HE-GQG" firstAttribute="leading" secondItem="fug-23-uGy" secondAttribute="leadingMargin" constant="-2" id="zlw-zm-5oS"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Mera Kisan" id="CKd-Jp-cM0">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="ham-3E-Un7"/>
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="VKk-OO-WF2">
+                            <connections>
+                                <segue destination="Pi2-VO-1Vg" kind="show" id="zde-XZ-nW4"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7rT-wV-hUE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="362" y="880"/>
+            <point key="canvasLocation" x="421" y="897"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pc4-I2-9Hy">
@@ -366,11 +374,61 @@
             </objects>
             <point key="canvasLocation" x="-794" y="51"/>
         </scene>
+        <!--Mera Kisan-->
+        <scene sceneID="q2h-lA-NQs">
+            <objects>
+                <viewController id="Pi2-VO-1Vg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aAi-uq-36a"/>
+                        <viewControllerLayoutGuide type="bottom" id="wmC-fy-VTS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="49p-1z-cPU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="OTP" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SVD-7w-P5g">
+                                <rect key="frame" x="18" y="285" width="564" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter OTP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHG-dk-dTk">
+                                <rect key="frame" x="244" y="171" width="112" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.16078431369999999" green="0.6705882353" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SVD-7w-P5g" firstAttribute="centerY" secondItem="49p-1z-cPU" secondAttribute="centerY" id="2qL-20-rKT"/>
+                            <constraint firstItem="SVD-7w-P5g" firstAttribute="leading" secondItem="49p-1z-cPU" secondAttribute="leadingMargin" constant="-2" id="7Ze-9u-JW5"/>
+                            <constraint firstItem="SVD-7w-P5g" firstAttribute="centerX" secondItem="49p-1z-cPU" secondAttribute="centerX" id="KsG-Gr-bzg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SVD-7w-P5g" secondAttribute="trailing" constant="-2" id="gv0-yU-oe2"/>
+                            <constraint firstItem="SVD-7w-P5g" firstAttribute="top" secondItem="vHG-dk-dTk" secondAttribute="bottom" constant="84" id="hfO-mp-D5B"/>
+                            <constraint firstItem="vHG-dk-dTk" firstAttribute="centerX" secondItem="49p-1z-cPU" secondAttribute="centerX" id="kLN-qR-4Fa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mera Kisan" id="oLn-hs-2of">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="QZu-UT-qei"/>
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="MbZ-xL-rz1">
+                            <connections>
+                                <segue destination="wIb-Ft-Wjt" kind="show" id="Iwk-ws-pnw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lpQ-Ey-Ib0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1131" y="908"/>
+        </scene>
     </scenes>
     <resources>
         <image name="house21.png" width="128" height="128"/>
         <image name="info28.png" width="128" height="128"/>
         <image name="network3.png" width="128" height="128"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Iwk-ws-pnw"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.16078431369999999" green="0.6705882353" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
