@@ -9,16 +9,17 @@
 #import "Utils.h"
 #import <AVFoundation/AVFoundation.h>
 #import <QuartzCore/QuartzCore.h>
+#import <CoreLocation/CoreLocation.h>
 
 
-@implementation Utils
+
+@implementation Utils 
 
 
 +(void)speakInHindi:(NSString *)string {
     AVSpeechSynthesizer *synthesizer = [[AVSpeechSynthesizer alloc]init];
     AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:string];
     [utterance setRate:0.2f];
-    //    utterance.voice = [AVSpeechSynthesisVoice voiceWithLanguage:@"en-us"];
     utterance.voice = [AVSpeechSynthesisVoice voiceWithLanguage:@"hi-IN"];
     [synthesizer speakUtterance:utterance];
 

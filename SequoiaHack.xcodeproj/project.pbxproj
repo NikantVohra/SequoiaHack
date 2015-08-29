@@ -17,6 +17,7 @@
 		056DA6031B91C83E005B112C /* SequoiaHackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056DA6021B91C83E005B112C /* SequoiaHackUITests.m */; };
 		056DA6141B91CE46005B112C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 056DA6161B91CE46005B112C /* Localizable.strings */; };
 		056DA61D1B91D481005B112C /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 056DA61C1B91D481005B112C /* Utils.m */; };
+		056DA61F1B91D58A005B112C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA61E1B91D58A005B112C /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		056DA61A1B91D37E005B112C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		056DA61B1B91D481005B112C /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		056DA61C1B91D481005B112C /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		056DA61E1B91D58A005B112C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056DA61F1B91D58A005B112C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +94,7 @@
 		056DA5D11B91C83E005B112C = {
 			isa = PBXGroup;
 			children = (
+				056DA61E1B91D58A005B112C /* CoreLocation.framework */,
 				056DA5DC1B91C83E005B112C /* SequoiaHack */,
 				056DA5F61B91C83E005B112C /* SequoiaHackTests */,
 				056DA6011B91C83E005B112C /* SequoiaHackUITests */,
