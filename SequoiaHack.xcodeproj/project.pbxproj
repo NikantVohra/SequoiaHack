@@ -18,6 +18,9 @@
 		056DA6141B91CE46005B112C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 056DA6161B91CE46005B112C /* Localizable.strings */; };
 		056DA61D1B91D481005B112C /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 056DA61C1B91D481005B112C /* Utils.m */; };
 		056DA61F1B91D58A005B112C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA61E1B91D58A005B112C /* CoreLocation.framework */; };
+		056DA6221B91D97E005B112C /* info28.png in Resources */ = {isa = PBXBuildFile; fileRef = 056DA6211B91D97E005B112C /* info28.png */; };
+		056DA6241B91DACA005B112C /* network3.png in Resources */ = {isa = PBXBuildFile; fileRef = 056DA6231B91DACA005B112C /* network3.png */; };
+		056DA6261B91DBCB005B112C /* house21.png in Resources */ = {isa = PBXBuildFile; fileRef = 056DA6251B91DBCB005B112C /* house21.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +57,6 @@
 		056DA5FE1B91C83E005B112C /* SequoiaHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SequoiaHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		056DA6021B91C83E005B112C /* SequoiaHackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SequoiaHackUITests.m; sourceTree = "<group>"; };
 		056DA6041B91C83E005B112C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		056DA6121B91CDC2005B112C /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/Main.strings"; sourceTree = "<group>"; };
 		056DA6131B91CDC2005B112C /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		056DA6151B91CE46005B112C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		056DA6171B91CF2B005B112C /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -63,6 +65,11 @@
 		056DA61B1B91D481005B112C /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		056DA61C1B91D481005B112C /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		056DA61E1B91D58A005B112C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		056DA6211B91D97E005B112C /* info28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info28.png; sourceTree = "<group>"; };
+		056DA6231B91DACA005B112C /* network3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = network3.png; sourceTree = "<group>"; };
+		056DA6251B91DBCB005B112C /* house21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house21.png; sourceTree = "<group>"; };
+		056DA6281B91DC48005B112C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		056DA62B1B91DCDB005B112C /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/Main.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +122,7 @@
 		056DA5DC1B91C83E005B112C /* SequoiaHack */ = {
 			isa = PBXGroup;
 			children = (
+				056DA6201B91D96D005B112C /* images */,
 				056DA5E01B91C83E005B112C /* AppDelegate.h */,
 				056DA5E11B91C83E005B112C /* AppDelegate.m */,
 				056DA5E31B91C83E005B112C /* ViewController.h */,
@@ -155,6 +163,16 @@
 				056DA6041B91C83E005B112C /* Info.plist */,
 			);
 			path = SequoiaHackUITests;
+			sourceTree = "<group>";
+		};
+		056DA6201B91D96D005B112C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				056DA6211B91D97E005B112C /* info28.png */,
+				056DA6231B91DACA005B112C /* network3.png */,
+				056DA6251B91DBCB005B112C /* house21.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +279,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056DA6221B91D97E005B112C /* info28.png in Resources */,
 				056DA5ED1B91C83E005B112C /* LaunchScreen.storyboard in Resources */,
+				056DA6241B91DACA005B112C /* network3.png in Resources */,
+				056DA6261B91DBCB005B112C /* house21.png in Resources */,
 				056DA6141B91CE46005B112C /* Localizable.strings in Resources */,
 				056DA5EA1B91C83E005B112C /* Assets.xcassets in Resources */,
 				056DA5E81B91C83E005B112C /* Main.storyboard in Resources */,
@@ -332,7 +353,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				056DA5E71B91C83E005B112C /* Base */,
-				056DA6121B91CDC2005B112C /* hi-IN */,
+				056DA6281B91DC48005B112C /* en */,
+				056DA62B1B91DCDB005B112C /* hi-IN */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

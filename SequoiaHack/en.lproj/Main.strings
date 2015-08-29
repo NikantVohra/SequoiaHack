@@ -1,21 +1,21 @@
 
 /* Class = "UILabel"; text = "MarketPlace"; ObjectID = "3Wi-z6-Jph"; */
-"3Wi-z6-Jph.text" = "बाजार";
+"3Wi-z6-Jph.text" = "MarketPlace";
 
 /* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "51f-J5-Ua1"; */
 "51f-J5-Ua1.title" = "Back";
 
 /* Class = "UINavigationItem"; title = "Mera Kisan"; ObjectID = "XBX-it-B8S"; */
-"XBX-it-B8S.title" = "मेरा किसान";
+"XBX-it-B8S.title" = "Mera Kisan";
 
 /* Class = "UILabel"; text = "Infrastructure"; ObjectID = "csP-wJ-hPk"; */
-"csP-wJ-hPk.text" = "इन्फ्रास्ट्रक्चर";
+"csP-wJ-hPk.text" = "Infrastructure";
 
 /* Class = "UILabel"; text = "Guide"; ObjectID = "kqO-df-9uz"; */
-"kqO-df-9uz.text" = "गाइड";
+"kqO-df-9uz.text" = "Guide";
 
 /* Class = "UINavigationItem"; title = "Home"; ObjectID = "vTC-wE-nCz"; */
-"vTC-wE-nCz.title" = "घर";
+"vTC-wE-nCz.title" = "Home";
 
 /* Class = "UIViewController"; title = "Technology Services"; ObjectID = "wIb-Ft-Wjt"; */
 "wIb-Ft-Wjt.title" = "Technology Services";

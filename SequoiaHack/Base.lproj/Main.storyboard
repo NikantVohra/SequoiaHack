@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XVx-MB-y5y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ouO-Hy-59G">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
     </dependencies>
@@ -21,7 +21,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2634" y="59"/>
+            <point key="canvasLocation" x="3446" y="59"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="uM7-gB-SHX">
@@ -39,7 +39,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ZC-wl-1AL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1010" y="59"/>
+            <point key="canvasLocation" x="1822" y="59"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Gar-HA-6xd">
@@ -58,7 +58,134 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1O0-lA-YuV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1822" y="59"/>
+            <point key="canvasLocation" x="2634" y="59"/>
+        </scene>
+        <!--Technology Services-->
+        <scene sceneID="KoN-Li-ui4">
+            <objects>
+                <viewController title="Technology Services" id="wIb-Ft-Wjt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mRd-fs-PDi"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Vs-4U-moe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Woe-Ne-OXk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3S8-36-oFs">
+                                <rect key="frame" x="250" y="400" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Cmm-pm-Mgz"/>
+                                    <constraint firstAttribute="height" constant="100" id="x0v-TA-gb2"/>
+                                </constraints>
+                                <state key="normal" image="house21.png"/>
+                                <connections>
+                                    <action selector="expenseReportButtonPressed:" destination="wIb-Ft-Wjt" eventType="touchUpInside" id="C6e-WX-5J0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqO-df-9uz">
+                                <rect key="frame" x="278" y="199" width="45.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MarketPlace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Wi-z6-Jph">
+                                <rect key="frame" x="249" y="350" width="102.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Infrastructure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csP-wJ-hPk">
+                                <rect key="frame" x="239" y="510" width="121.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EmV-9V-zee">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ULi-3q-ljB"/>
+                                    <constraint firstAttribute="height" constant="100" id="mLN-h3-8pK"/>
+                                </constraints>
+                                <state key="normal" image="network3.png"/>
+                                <connections>
+                                    <action selector="travelReportButtonPressed:" destination="wIb-Ft-Wjt" eventType="touchUpInside" id="Iwb-fh-Osd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLG-hJ-xpZ">
+                                <rect key="frame" x="250" y="94" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="5Dc-Kh-lAc"/>
+                                    <constraint firstAttribute="height" constant="100" id="HHF-Q3-Axm"/>
+                                </constraints>
+                                <state key="normal" image="info28.png"/>
+                                <connections>
+                                    <action selector="headcountButtonPressed:" destination="wIb-Ft-Wjt" eventType="touchUpInside" id="RDs-Hh-CVd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kqO-df-9uz" firstAttribute="top" secondItem="sLG-hJ-xpZ" secondAttribute="bottom" constant="5" id="6gU-aj-4Gi"/>
+                            <constraint firstItem="csP-wJ-hPk" firstAttribute="centerX" secondItem="3S8-36-oFs" secondAttribute="centerX" id="9il-E7-Zp8"/>
+                            <constraint firstItem="3Wi-z6-Jph" firstAttribute="top" secondItem="EmV-9V-zee" secondAttribute="bottom" id="C1T-1P-Kum"/>
+                            <constraint firstItem="csP-wJ-hPk" firstAttribute="centerX" secondItem="Woe-Ne-OXk" secondAttribute="centerX" id="Cwd-wN-4yk"/>
+                            <constraint firstItem="EmV-9V-zee" firstAttribute="top" secondItem="kqO-df-9uz" secondAttribute="bottom" constant="30" id="Cyu-aT-Qeb"/>
+                            <constraint firstItem="5Vs-4U-moe" firstAttribute="top" secondItem="csP-wJ-hPk" secondAttribute="bottom" constant="38.5" id="DJ4-Rk-nGy"/>
+                            <constraint firstItem="3S8-36-oFs" firstAttribute="centerY" secondItem="Woe-Ne-OXk" secondAttribute="centerY" id="Dag-al-0je"/>
+                            <constraint firstItem="3Wi-z6-Jph" firstAttribute="centerX" secondItem="Woe-Ne-OXk" secondAttribute="centerX" id="FOl-A1-AP9"/>
+                            <constraint firstItem="sLG-hJ-xpZ" firstAttribute="centerX" secondItem="Woe-Ne-OXk" secondAttribute="centerX" id="O05-Pz-C0N"/>
+                            <constraint firstItem="csP-wJ-hPk" firstAttribute="centerX" secondItem="Woe-Ne-OXk" secondAttribute="centerX" id="VZG-Mz-DBD"/>
+                            <constraint firstItem="EmV-9V-zee" firstAttribute="centerY" secondItem="Woe-Ne-OXk" secondAttribute="centerY" id="Yjq-D9-Jhx"/>
+                            <constraint firstItem="3S8-36-oFs" firstAttribute="centerX" secondItem="Woe-Ne-OXk" secondAttribute="centerX" id="Zuo-M1-Keo"/>
+                            <constraint firstItem="csP-wJ-hPk" firstAttribute="top" secondItem="3S8-36-oFs" secondAttribute="bottom" constant="10" id="cEE-ZI-2i7"/>
+                            <constraint firstItem="3S8-36-oFs" firstAttribute="top" secondItem="3Wi-z6-Jph" secondAttribute="bottom" constant="30" id="e41-wh-hYZ"/>
+                            <constraint firstItem="kqO-df-9uz" firstAttribute="centerX" secondItem="Woe-Ne-OXk" secondAttribute="centerX" id="kdW-oO-Dul"/>
+                            <constraint firstItem="3S8-36-oFs" firstAttribute="centerX" secondItem="3Wi-z6-Jph" secondAttribute="centerX" id="ojH-7b-y80"/>
+                            <constraint firstItem="csP-wJ-hPk" firstAttribute="top" secondItem="3S8-36-oFs" secondAttribute="bottom" id="pqk-6O-4dt"/>
+                            <constraint firstItem="EmV-9V-zee" firstAttribute="centerX" secondItem="Woe-Ne-OXk" secondAttribute="centerX" id="qL5-ke-VtV"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Dag-al-0je"/>
+                                <exclude reference="ojH-7b-y80"/>
+                                <exclude reference="Cwd-wN-4yk"/>
+                                <exclude reference="pqk-6O-4dt"/>
+                                <exclude reference="9il-E7-Zp8"/>
+                                <exclude reference="DJ4-Rk-nGy"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mera Kisan" id="XBX-it-B8S">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="51f-J5-Ua1"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V9w-tz-Hlt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="687" y="51"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pc4-I2-9Hy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ouO-Hy-59G" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TN6-8b-blg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wIb-Ft-Wjt" kind="relationship" relationship="rootViewController" id="JfI-eb-dKd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2QE-qd-fBX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-125" y="51"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="house21.png" width="128" height="128"/>
+        <image name="info28.png" width="128" height="128"/>
+        <image name="network3.png" width="128" height="128"/>
+    </resources>
 </document>

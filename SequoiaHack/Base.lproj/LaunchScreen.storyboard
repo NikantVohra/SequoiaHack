@@ -35,7 +35,7 @@
                             </label>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.15940382315789473" green="0.670055913" blue="0.14382246117631578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.16078431372549018" green="0.6705882352941176" blue="0.14509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="gE8-Pe-GdR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Opp-rI-R0b"/>
                             <constraint firstItem="ENa-Gw-enx" firstAttribute="top" secondItem="gE8-Pe-GdR" secondAttribute="bottom" constant="8" id="gRN-8O-ycS"/>
