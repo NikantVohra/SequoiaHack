@@ -20,7 +20,7 @@ CLLocationManager *locationManager;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [Utils speakInHindi:@"मेरे किसान"];
+    
      locationManager = [[CLLocationManager alloc] init];
     [self getCurrentLocation];
 }
@@ -56,7 +56,9 @@ CLLocationManager *locationManager;
     
     if (currentLocation != nil) {
         NSLog(@"%f",currentLocation.coordinate.longitude);
+        [locationManager stopUpdatingLocation];
     }
+    
 }
 
 

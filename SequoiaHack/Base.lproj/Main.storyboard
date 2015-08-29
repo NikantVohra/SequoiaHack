@@ -39,7 +39,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ZC-wl-1AL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1822" y="59"/>
+            <point key="canvasLocation" x="1443" y="74"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Gar-HA-6xd">
@@ -79,9 +79,6 @@
                                     <constraint firstAttribute="height" constant="100" id="x0v-TA-gb2"/>
                                 </constraints>
                                 <state key="normal" image="house21.png"/>
-                                <connections>
-                                    <action selector="expenseReportButtonPressed:" destination="wIb-Ft-Wjt" eventType="touchUpInside" id="C6e-WX-5J0"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqO-df-9uz">
                                 <rect key="frame" x="278" y="199" width="45.5" height="20.5"/>
@@ -108,9 +105,6 @@
                                     <constraint firstAttribute="height" constant="100" id="mLN-h3-8pK"/>
                                 </constraints>
                                 <state key="normal" image="network3.png"/>
-                                <connections>
-                                    <action selector="travelReportButtonPressed:" destination="wIb-Ft-Wjt" eventType="touchUpInside" id="Iwb-fh-Osd"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLG-hJ-xpZ">
                                 <rect key="frame" x="250" y="94" width="100" height="100"/>
@@ -120,7 +114,7 @@
                                 </constraints>
                                 <state key="normal" image="info28.png"/>
                                 <connections>
-                                    <action selector="headcountButtonPressed:" destination="wIb-Ft-Wjt" eventType="touchUpInside" id="RDs-Hh-CVd"/>
+                                    <segue destination="XVx-MB-y5y" kind="show" id="se1-Lt-i3x"/>
                                 </connections>
                             </button>
                         </subviews>
