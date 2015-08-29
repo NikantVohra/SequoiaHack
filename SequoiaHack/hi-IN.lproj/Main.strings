@@ -1,4 +1,29 @@
 
+
+/* Class = "UILabel"; text = "Increase farm productivity"; ObjectID = "3dR-yj-yjn"; */
+"3dR-yj-yjn.text" = "कृषि उत्पादकता में वृद्धि";
+
+
+/* Class = "UILabel"; text = "Mera Kisan"; ObjectID = "LOp-GZ-DOt"; */
+"LOp-GZ-DOt.text" = "मेरा किसान";
+
+/* Class = "UIButton"; normalTitle = "Signup"; ObjectID = "VZh-cm-HOw"; */
+"VZh-cm-HOw.normalTitle" = "साइन अप करें";
+
+
+
+/* Class = "UINavigationItem"; title = "Policies"; ObjectID = "sZJ-LI-Tee"; */
+"sZJ-LI-Tee.title" = "Policies";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "t38-GR-vUL"; */
+"t38-GR-vUL.normalTitle" = "लॉग इन करें";
+
+
+
+/* Class = "UIViewController"; title = "Technology Services"; ObjectID = "wIb-Ft-Wjt"; */
+"wIb-Ft-Wjt.title" = "Technology Services";
+
+
 /* Class = "UILabel"; text = "MarketPlace"; ObjectID = "3Wi-z6-Jph"; */
 "3Wi-z6-Jph.text" = "बाजार";
 
