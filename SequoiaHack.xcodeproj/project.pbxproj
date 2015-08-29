@@ -16,6 +16,7 @@
 		056DA5F81B91C83E005B112C /* SequoiaHackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056DA5F71B91C83E005B112C /* SequoiaHackTests.m */; };
 		056DA6031B91C83E005B112C /* SequoiaHackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056DA6021B91C83E005B112C /* SequoiaHackUITests.m */; };
 		056DA6141B91CE46005B112C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 056DA6161B91CE46005B112C /* Localizable.strings */; };
+		056DA61D1B91D481005B112C /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 056DA61C1B91D481005B112C /* Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,9 @@
 		056DA6151B91CE46005B112C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		056DA6171B91CF2B005B112C /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		056DA6181B91CF2C005B112C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		056DA61A1B91D37E005B112C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		056DA61B1B91D481005B112C /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		056DA61C1B91D481005B112C /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 				056DA5E11B91C83E005B112C /* AppDelegate.m */,
 				056DA5E31B91C83E005B112C /* ViewController.h */,
 				056DA5E41B91C83E005B112C /* ViewController.m */,
+				056DA61B1B91D481005B112C /* Utils.h */,
+				056DA61C1B91D481005B112C /* Utils.m */,
 				056DA5E61B91C83E005B112C /* Main.storyboard */,
 				056DA6161B91CE46005B112C /* Localizable.strings */,
 				056DA5E91B91C83E005B112C /* Assets.xcassets */,
@@ -282,6 +288,7 @@
 				056DA5E51B91C83E005B112C /* ViewController.m in Sources */,
 				056DA5E21B91C83E005B112C /* AppDelegate.m in Sources */,
 				056DA5DF1B91C83E005B112C /* main.m in Sources */,
+				056DA61D1B91D481005B112C /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +338,7 @@
 			children = (
 				056DA5EC1B91C83E005B112C /* Base */,
 				056DA6131B91CDC2005B112C /* hi-IN */,
+				056DA61A1B91D37E005B112C /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
