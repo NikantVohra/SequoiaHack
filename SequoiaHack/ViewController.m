@@ -13,7 +13,7 @@
 #define ServerURl @""
 
 @interface ViewController ()<CLLocationManagerDelegate>
-
+@property(nonatomic, strong) UILabel *topLabel;
 @end
 
 @implementation ViewController
@@ -31,7 +31,8 @@ NSArray *fetchedData;
     fetchedData = [NSArray arrayWithObjects:NSLocalizedString(@"Apple", nil) , NSLocalizedString(@"Rice", nil), NSLocalizedString(@"Wheat", nil),NSLocalizedString(@"Barley", nil),NSLocalizedString(@"Banana", nil),NSLocalizedString(@"Onion", nil), nil];
     
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemPlay target:self action:@selector(playVoice:)];
-    self.navigationItem.rightBarButtonItem = rightItem;
+    
+    self.tabBarController.navigationItem.rightBarButtonItem = rightItem;
 }
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
@@ -43,6 +44,7 @@ NSArray *fetchedData;
     /* Section header is in 0th index... */
     [label setText:string];
     [label setTextColor:[UIColor whiteColor]];
+
     [view addSubview:label];
     [view setBackgroundColor:[UIColor colorWithRed:41/255.0 green:171/255.0 blue:37/255.0 alpha:1]]; //your background color...
     return view;
@@ -60,7 +62,12 @@ NSArray *fetchedData;
 }
 
 - (void)playVoice:(id)sender {
-    [Utils speakInHindi:@"शीर्ष 5 फसलें इस मौसम में बोना"];
+    if(self.tabBarController.selectedIndex == 0) {
+        [Utils speakInHindi:@"शीर्ष 5 फसलें इस मौसम में बोना"];
+    }
+    else if(self.tabBarController.selectedIndex == 2) {
+        [Utils speakInHindi:@"नक्शे पर अपने खेत स्थान का चयन"];
+    }
     
 }
 

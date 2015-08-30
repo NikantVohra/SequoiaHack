@@ -15,7 +15,7 @@
 
 -(void)viewDidLoad {
     [super viewDidLoad];
-    resources = [NSArray arrayWithObjects:NSLocalizedString(@"National Agricultural Insurance Scheme ", nil) , NSLocalizedString(@"Pilot Coconut Palm Insurance Scheme ", nil), NSLocalizedString(@"Jute Technology Mission", nil),NSLocalizedString(@"Draft National Disaster Mitigation Plan", nil),NSLocalizedString(@"National e-Governance Plan in Agriculture", nil),NSLocalizedString(@"Soil Health Management", nil), nil];
+    resources = [NSArray arrayWithObjects:NSLocalizedString(@"National Agricultural Insurance Scheme", nil) , NSLocalizedString(@"Pilot Coconut Palm Insurance Scheme", nil), NSLocalizedString(@"Jute Technology Mission", nil),NSLocalizedString(@"Draft National Disaster Mitigation Plan", nil),NSLocalizedString(@"National e-Governance Plan in Agriculture", nil),NSLocalizedString(@"Soil Health Management", nil), nil];
 }
 
 
@@ -49,6 +49,11 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self performSegueWithIdentifier:@"schemeSegue" sender:self];
 }
-
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.tabBarController.navigationItem.title = NSLocalizedString(@"Government Schemes", nil);
+    
+    
+}
 
 @end

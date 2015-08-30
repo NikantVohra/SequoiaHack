@@ -36,4 +36,13 @@
     [self.spinner removeFromSuperview];
     [webView stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"document.querySelector('meta[name=viewport]').setAttribute('content', 'width=%d;', false); ", (int)webView.frame.size.width]];
 }
+
+
+
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.tabBarController.navigationItem.title = NSLocalizedString(@"Government Schemes", nil);
+    
+    
+}
 @end
