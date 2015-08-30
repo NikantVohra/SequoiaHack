@@ -8,3 +8,47 @@
 "Increase farm productivity" = "Increase";
 
 "Home" = "घर";
+
+"Apple" = "सेब";
+
+"Rice" = "चावल";
+
+"Wheat" = "गेहूं";
+
+"Barley" = "जौ";
+
+"Onion" = "प्याज";
+
+"Banana" = "केले";
+
+"yield : %d" = "उपज : %d";
+
+"Top 5 Crops to sow this season" = "शीर्ष 5 फसलें इस मौसम में बोना";
+
+"Resources" = "साधन";
+
+"Map" = "नक्शा";
+
+"Land Preparation" = "भूमि तैयार करना";
+
+"Harvesting" = "कटाई";
+
+"Crop Growth" = "फसल विकास";
+
+"Irrigation Methods" = "सिंचाई विधियों";
+
+"Sowing Seeds" = "बीज-बुवाई";
+
+"Fertilizing" = "उर्वरक लागू करें";
+
+"Drip Irrigation" = "टपकन सिंचाई";
+
+"Flood Irrigation" = "बाढ़ सिंचाई";
+"Rotation Irrigation" = "रोटेशन सिंचाई";
+"Surface Irrigation" = "भूतल सिंचाई";
+"Sprinkler Irrigation" = "छिड़काव सिंचाई";
+"Furrow Irrigation" = "कुंड सिंचाई";
+
+
+
+

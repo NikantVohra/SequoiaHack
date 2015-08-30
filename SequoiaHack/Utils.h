@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface Utils : NSObject
 
 +(void)speakInHindi:(NSString *)string;
-
++(void)saveCurrentField:(CLLocationCoordinate2D)location;
++(NSDictionary *)getCurrentField;
 @end

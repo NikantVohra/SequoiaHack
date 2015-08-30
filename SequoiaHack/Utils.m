@@ -9,7 +9,7 @@
 #import "Utils.h"
 #import <AVFoundation/AVFoundation.h>
 #import <QuartzCore/QuartzCore.h>
-#import <CoreLocation/CoreLocation.h>
+
 
 
 
@@ -25,4 +25,17 @@
 
 }
 
++(void)saveCurrentField:(CLLocationCoordinate2D)location {
+    NSNumber *lat = [NSNumber numberWithDouble:location.latitude];
+    NSNumber *lon = [NSNumber numberWithDouble:location.longitude];
+    NSDictionary *userLocation=@{@"lat":lat,@"long":lon};
+    
+    [[NSUserDefaults standardUserDefaults] setObject:userLocation forKey:@"userLocation"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+
++(NSDictionary *)getCurrentField {
+    return [[NSUserDefaults standardUserDefaults] objectForKey:@"userLocation"];
+}
 @end

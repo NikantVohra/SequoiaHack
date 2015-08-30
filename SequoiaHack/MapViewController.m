@@ -8,6 +8,10 @@
 
 #import "MapViewController.h"
 @import GoogleMaps;
+#import "Utils.h"
+@interface MapViewController()<GMSMapViewDelegate>
+
+@end
 
 @implementation MapViewController {
     GMSMapView *mapView_;
@@ -17,23 +21,36 @@
     [super viewDidLoad];
     // Create a GMSCameraPosition that tells the map to display the
     // coordinate -33.86,151.20 at zoom level 6.
+    NSDictionary *userLoc = [Utils getCurrentField];
+    GMSMarker *marker = [[GMSMarker alloc] init];
+    double latitude = [[userLoc objectForKey:@"lat"] doubleValue];
+    double longitude = [[userLoc objectForKey:@"long"] doubleValue];
     
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:30.174427
-                                                            longitude:75.00565
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:latitude
+                                                            longitude:longitude
                                                                  zoom:17];
     mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView_.myLocationEnabled = YES;
     mapView_.mapType = kGMSTypeSatellite;
+    mapView_.delegate = self;
     self.view = mapView_;
-    
+    marker.position = CLLocationCoordinate2DMake(latitude, longitude);
     // Creates a marker in the center of the map.
-    GMSMarker *marker = [[GMSMarker alloc] init];
-    marker.position = CLLocationCoordinate2DMake(-33.86, 151.20);
-    marker.title = @"Farm";
+    
+    marker.title = @"My Farm";
     marker.snippet = @"India";
     marker.map = mapView_;
 }
-
+-(void)mapView:(GMSMapView *)mapView didLongPressAtCoordinate:(CLLocationCoordinate2D)coordinate {
+    [mapView_ clear];
+    [Utils saveCurrentField:coordinate];
+    GMSMarker *marker3 = [[GMSMarker alloc] init];
+    
+    marker3.position = coordinate;
+    marker3.title = @"My Farm";
+    marker3.snippet = @"India";
+    marker3.map = mapView_;
+}
 
 
 

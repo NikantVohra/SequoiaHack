@@ -39,6 +39,8 @@
 		056DA6441B91EB8C005B112C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA6421B91EB8C005B112C /* Bolts.framework */; };
 		056DA6451B91EB8D005B112C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056DA6431B91EB8C005B112C /* Parse.framework */; };
 		056DA6481B91F579005B112C /* farmer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 056DA6471B91F579005B112C /* farmer.jpg */; };
+		05F8C82F1B929703001F8887 /* PoliciesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F8C82E1B929703001F8887 /* PoliciesViewController.m */; };
+		05F8C8321B929B2B001F8887 /* SchemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F8C8311B929B2B001F8887 /* SchemeViewController.m */; };
 		8DDD80C81014CBF0D3C8185A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A70841AB5CA95827EB7C526D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +112,10 @@
 		056DA6431B91EB8C005B112C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		056DA6471B91F579005B112C /* farmer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = farmer.jpg; sourceTree = "<group>"; };
 		056DA64A1B91F84E005B112C /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		05F8C82D1B929703001F8887 /* PoliciesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoliciesViewController.h; sourceTree = "<group>"; };
+		05F8C82E1B929703001F8887 /* PoliciesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoliciesViewController.m; sourceTree = "<group>"; };
+		05F8C8301B929B2B001F8887 /* SchemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchemeViewController.h; sourceTree = "<group>"; };
+		05F8C8311B929B2B001F8887 /* SchemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchemeViewController.m; sourceTree = "<group>"; };
 		19B3FFD12D4545F43115F6F4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A70841AB5CA95827EB7C526D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B9D09DA997F3A32F559494 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +200,10 @@
 				056DA61C1B91D481005B112C /* Utils.m */,
 				0503C2511B922B7800B297FA /* IrrigationTableViewController.h */,
 				0503C2521B922B7800B297FA /* IrrigationTableViewController.m */,
+				05F8C82D1B929703001F8887 /* PoliciesViewController.h */,
+				05F8C82E1B929703001F8887 /* PoliciesViewController.m */,
+				05F8C8301B929B2B001F8887 /* SchemeViewController.h */,
+				05F8C8311B929B2B001F8887 /* SchemeViewController.m */,
 				056DA5E61B91C83E005B112C /* Main.storyboard */,
 				056DA6161B91CE46005B112C /* Localizable.strings */,
 				056DA5E91B91C83E005B112C /* Assets.xcassets */,
@@ -447,11 +457,13 @@
 			files = (
 				0503C24D1B92265300B297FA /* ResourcesViewController.m in Sources */,
 				056DA5E51B91C83E005B112C /* ViewController.m in Sources */,
+				05F8C82F1B929703001F8887 /* PoliciesViewController.m in Sources */,
 				056DA5E21B91C83E005B112C /* AppDelegate.m in Sources */,
 				0503C23D1B9208BD00B297FA /* MapViewController.m in Sources */,
 				0503C2531B922B7800B297FA /* IrrigationTableViewController.m in Sources */,
 				056DA5DF1B91C83E005B112C /* main.m in Sources */,
 				056DA61D1B91D481005B112C /* Utils.m in Sources */,
+				05F8C8321B929B2B001F8887 /* SchemeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

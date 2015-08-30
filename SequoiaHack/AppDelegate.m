@@ -30,16 +30,16 @@
     [application registerUserNotificationSettings:settings];
     [application registerForRemoteNotifications];
     [GMSServices provideAPIKey:@"AIzaSyCFzV5a58_nuo38dgM06kMaCQ1DZ_N8s1g"];
-//    [[UITabBar appearance] setTintColor:[UIColor colorWithRed:41 green:171 blue:37 alpha:1]];
-//    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:10.0f],
-//                                                        NSForegroundColorAttributeName : [UIColor colorWithRed:41 green:171 blue:37 alpha:1]
-//                                                        } forState:UIControlStateSelected];
-//    
-//    
-//    // doing this results in an easier to read unselected state then the default iOS 7 one
-//    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:10.0f],
-//                                                        NSForegroundColorAttributeName : [UIColor colorWithRed:.5 green:.5 blue:.5 alpha:1]
-//                                                        } forState:UIControlStateNormal];
+    [[UITabBar appearance] setTintColor:[UIColor colorWithRed:41/255.0 green:171/255.0 blue:37/255.0 alpha:1]];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:10.0f],
+                                                        NSForegroundColorAttributeName : [UIColor colorWithRed:41/255.0 green:171/255.0 blue:37/255.0 alpha:1]
+                                                        } forState:UIControlStateSelected];
+    
+    
+    // doing this results in an easier to read unselected state then the default iOS 7 one
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:10.0f],
+                                                        NSForegroundColorAttributeName : [UIColor colorWithRed:.5 green:.5 blue:.5 alpha:1]
+                                                        } forState:UIControlStateNormal];
     return YES;
 }
 

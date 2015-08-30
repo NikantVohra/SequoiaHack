@@ -1,31 +1,23 @@
 //
-//  ResourcesViewController.m
+//  PoliciesViewController.m
 //  SequoiaHack
 //
-//  Created by Vohra, Nikant on 29/08/15.
+//  Created by Vohra, Nikant on 30/08/15.
 //  Copyright © 2015 Vohra, Nikant. All rights reserved.
 //
 
-#import "ResourcesViewController.h"
+#import "PoliciesViewController.h"
 
-@interface ResourcesViewController()<UITableViewDelegate, UITableViewDataSource>
-@property(nonatomic, strong) NSDictionary *currentLocation;
-@end
-
-
-@implementation ResourcesViewController
+@implementation PoliciesViewController
 {
     NSArray *resources;
 }
 
 -(void)viewDidLoad {
     [super viewDidLoad];
-    resources = [NSArray arrayWithObjects:NSLocalizedString(@"Land Preparation", nil) , NSLocalizedString(@"Sowing Seeds", nil), NSLocalizedString(@"Fertilizing", nil),NSLocalizedString(@"Irrigation Methods", nil),NSLocalizedString(@"Crop Growth", nil),NSLocalizedString(@"Harvesting", nil), nil];
+    resources = [NSArray arrayWithObjects:NSLocalizedString(@"National Agricultural Insurance Scheme ", nil) , NSLocalizedString(@"Pilot Coconut Palm Insurance Scheme ", nil), NSLocalizedString(@"Jute Technology Mission", nil),NSLocalizedString(@"Draft National Disaster Mitigation Plan", nil),NSLocalizedString(@"National e-Governance Plan in Agriculture", nil),NSLocalizedString(@"Soil Health Management", nil), nil];
 }
--(void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    self.tabBarController.navigationItem.title = NSLocalizedString(@"Resources", nil);
-}
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -47,15 +39,15 @@
     if (cell == nil)
     {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
-                                       reuseIdentifier:MyIdentifier] ;
+                                      reuseIdentifier:MyIdentifier] ;
     }
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.textLabel.text = [resources objectAtIndex:indexPath.row];
+    
     return cell;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if(indexPath.row == 3) {
-        [self performSegueWithIdentifier:@"irrigationSegue" sender:self];
-    }
+    [self performSegueWithIdentifier:@"schemeSegue" sender:self];
 }
 
 
